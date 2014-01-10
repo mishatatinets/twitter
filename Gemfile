@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jruby-openssl', :platforms => :jruby
+gem 'naught', :git => 'https://github.com/sferik/naught.git', :branch => 'ruby_1.8'
 gem 'rake'
 gem 'yard'
 
